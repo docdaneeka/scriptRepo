@@ -2,7 +2,7 @@ import re.hub.commithub.rest.commit.CommitCheckRequest
 import re.hub.commithub.ruleScriptAnnotations.RuleParameter
 import re.hub.commithub.ruleScriptAnnotations.RuleScript
 
-@RuleScript(ruleName = "Test rule with custom params desc", ruleDescription = "Put a string here: {{astring}}, choose a field: {{field}}, provide an <b>important</b> number: {{anInt}}, check if really important: {{aBoolean}} <br> in new line date here: {{aDate}}, finally statuses: {{statuses}}")
+@RuleScript(ruleName = "Script from repo2", ruleDescription = "Put a string here: {{astring}}, choose a field: {{field}}, provide an <b>important</b> number: {{anInt}}, check if really important: {{aBoolean}} <br> in new line date here: {{aDate}}, finally statuses: {{statuses}}")
 class DummyRuleNew {
 
     @RuleParameter(type=RuleParameter.Type.STRING, name="astring", required=true)
