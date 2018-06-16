@@ -3,7 +3,7 @@ import re.hub.commithub.ruleScriptAnnotations.RuleParameter
 import re.hub.commithub.ruleScriptAnnotations.RuleScript
 import re.hub.commithub.ruleScriptAnnotations.RuleParameterValue
 
-@RuleScript(ruleName = "Script from repo", ruleDescription = "Kindly please put a short string here: {{astring}} ")
+@RuleScript(ruleName = "Script from repo", ruleDescription = "Please put a short string here: {{astring}} ")
 class DummyRule {
 
     @RuleParameter(type=RuleParameter.Type.STRING, name="astring", required=true)
