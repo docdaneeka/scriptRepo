@@ -6,7 +6,7 @@ import re.hub.commithub.ruleScriptAnnotations.RuleParameterValue
 @RuleScript(ruleName = "Script from repo", ruleDescription = "Please put a short string here: {{astring}} ")
 class DummyRule {
 
-    @RuleParameter(type=RuleParameter.Type.STRING, name="astring", required=true)
+    @RuleParameter(type=RuleParameter.Type.STRING, name="astring", required=false)
     String astring = "defaultvalue"
 
     boolean check(CommitCheckRequest commitCheckRequest, OutputStream outputCommitMessage) {
