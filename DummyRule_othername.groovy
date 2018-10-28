@@ -1,7 +1,7 @@
 import re.hub.commithub.rest.commit.CommitCheckRequest
-import re.hub.commithub.ruleScriptAnnotations.RuleParameter
-import re.hub.commithub.ruleScriptAnnotations.RuleScript
-import re.hub.commithub.ruleScriptAnnotations.RuleParameterValue
+import re.hub.commithub.ruleScript.annotation.RuleParameter
+import re.hub.commithub.ruleScript.annotation.RuleScript
+import re.hub.commithub.ruleScript.annotation.RuleParameterValue
 
 @RuleScript(ruleName = "Script from repo", ruleDescription = "Please put a short string here: {{astring}} ")
 class DummyRule {

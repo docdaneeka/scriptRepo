@@ -1,6 +1,7 @@
 import re.hub.commithub.rest.commit.CommitCheckRequest
-import re.hub.commithub.ruleScriptAnnotations.RuleParameter
-import re.hub.commithub.ruleScriptAnnotations.RuleScript
+import re.hub.commithub.ruleScript.annotation.RuleParameter
+import re.hub.commithub.ruleScript.annotation.RuleScript
+import re.hub.commithub.ruleScript.annotation.RuleParameterValue
 
 @RuleScript(ruleName = "Script from repo2", ruleDescription = "Put a string here: {{astring}}, choose a field: {{field}}, provide an <b>important</b> number: {{anInt}}, check if really important: {{aBoolean}} <br> in new line date here: {{aDate}}, finally statuses: {{statuses}}")
 class DummyRuleNew {
